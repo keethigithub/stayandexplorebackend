@@ -1,0 +1,87 @@
+.dashboard-container {
+    display: flex;
+    background: linear-gradient(135deg, #e3f2fd, #ffebee);
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+    color: #ffeb3b;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 30px;
+  }
+  
+  .tourist-promo {
+    background-color: #fff8e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tourist-promo h3 {
+    font-size: 28px;
+    color: #3949ab;
+  }
+  
+  .tourist-promo ul {
+    margin: 10px 0;
+    list-style: none;
+  }
+  
+  .tourist-promo ul li {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .guest-testimonials p {
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 15px;
+  }
+  
+  .explore-button {
+    background-color: #3949ab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .explore-button:hover {
+    background-color: #1e88e5;
+  }
+  

@@ -1,0 +1,66 @@
+/* src/pages/Sidebar.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    width: 20%;
+    height: 98vh;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    position: fixed; /* Fixes sidebar on the left side */
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-content {
+    margin-left: 260px; /* To push the main content to the right of the sidebar */
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .main-content h3 {
+    font-size: 28px;
+  }
+  
+  .main-content h2 {
+    font-size: 24px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+  }
+ 

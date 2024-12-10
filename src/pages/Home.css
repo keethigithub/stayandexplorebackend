@@ -1,0 +1,52 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/female-traveler-sitting-looking-beautiful-mountains-nature-view-wooden-balcony_9563-18706.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow to the text for better readability */
+}
+
+.home-paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  max-width: 600px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Adds shadow to the paragraph for better readability */
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}
